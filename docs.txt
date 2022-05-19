@@ -1,3 +1,5 @@
+https://docs.replit.com/tutorials/33-escrow-contract-with-solidity
+
 ## smart_contract folder ##
 
 $ npm init -y
@@ -22,6 +24,9 @@ networks: {
 }
 
 # create scripts/deploy.js
+
+# for cache cleaning
+$ npx hardhat clean
 
 $ npx hardhat run scripts/deploy.js --network localhost
 $ npx hardhat run scripts/deploy.js --network rinkeby

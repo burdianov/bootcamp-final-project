@@ -7,3 +7,6 @@ typechain
 #Hardhat files
 cache
 artifacts
+
+contracts_backup
+test_backup
